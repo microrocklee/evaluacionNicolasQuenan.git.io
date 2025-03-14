@@ -1,94 +1,38 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Estilos generales */
+body {
+    background-color: white;
     font-family: Arial, sans-serif;
 }
 
-
-body {
-    background-color: white;
-    text-align: center;
+/* Fondo rojo del header y footer */
+.bg-red {
+    background-color: #d32f2f; /* Rojo fuerte */
 }
 
-
-header {
-    background-color: #D32F2F; /* Rojo fuerte */
-    color: white;
-    padding: 15px 0;
+/* Header con el texto a la izquierda y menú a la derecha */
+header h2 {
+    font-size: 20px;
+    margin: 0;
 }
 
-header h1 {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-nav {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: right;
-    padding-right: 20px;
-    padding-top: 20px;
-    
-}
-
+/* Menú alineado a la derecha */
 nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
 
-.container {
-    display: flex;
-    width: 80%;
-    margin: 30px auto;
-    align-items: flex-start;
-    text-align: left;
-}
 
-.image-container {
-    flex: 1;
-    text-align: center;
-}
-
-.image-container img {
-    width: 200%; 
-    max-width: 300px;
-}
-
-.text-content {
-    flex: 2;
-    padding-left: 20px;
-    text-align: center;
-    font-size:50%;
-}
-
-.text-content h2 {
+/* Estilos del título principal */
+.text-title {
     font-size: 24px;
-    margin-bottom: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
+/* Ajuste de párrafos */
 .text-content p {
     font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* Pie de página */
-footer {
-    background-color: #D32F2F;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 30px;
-    font-size: 14px;
+    text-align: justify;
+    margin: 0 20px;
 }
